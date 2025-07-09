@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Baş -->
+  <circle cx="200" cy="90" r="40" fill="currentColor"/>
+  
+  <!-- Vücut -->
+  <path d="M200 130 L200 300" stroke="currentColor" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Kollar - Yoga/Fitness pozisyonu -->
+  <path d="M200 160 L140 200 L120 180" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M200 160 L260 200 L280 180" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bacaklar - Denge pozisyonu -->
+  <path d="M200 300 L170 420" stroke="currentColor" stroke-width="15" stroke-linecap="round"/>
+  <path d="M170 420 L160 445" stroke="currentColor" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Kaldırılmış bacak - Denge pozisyonu -->
+  <path d="M200 300 L250 360 L290 330" stroke="currentColor" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Denge çizgisi/zemin göstergesi -->
+  <line x1="100" y1="445" x2="300" y2="445" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+  
+  <!-- Enerji alanı (opsiyonel dekoratif öğe) -->
+  <path d="M170 250 C 140 290, 260 290, 230 250" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M150 210 C 120 270, 280 270, 250 210" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+</svg>
