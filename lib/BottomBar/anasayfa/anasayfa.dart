@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
   TextEditingController _chatController = TextEditingController();
   List<ChatMessage> _chatMessages = [];
   bool _isLoading = false;
-  final String _geminiApiKey = "AIzaSyAxjLvVUsn4oRkmgKT_qmiulLaFGrUhAmU";
+  final String _geminiApiKey = "Your APİ key";
 
   final List<String> _workoutTips = [
     'Egzersiz öncesi ve sonrası mutlaka su içmeyi unutma! 💧',
